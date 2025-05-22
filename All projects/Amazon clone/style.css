@@ -1,0 +1,347 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+    color: aliceblue;
+}
+/* header */
+.banner-first{
+    height: 60px;
+    background-color: #131921;
+    display: flex;
+    align-items: center;
+
+}
+.logo{
+    height: 70px;
+}
+img{
+    height: 60px;
+    width: 120px;
+    
+}
+.adress-first{
+    margin-left: 15px;
+     }
+.adress-first p {
+    font-size: 0.68rem;
+    font-weight: 700;
+}
+.adress-section{
+    width: 134px;
+    margin-bottom: 9px;
+    color: #FFFFF3;
+}
+.adress-second{
+    display: flex;
+}
+
+.adress-second p {
+font-size: 0.90rem;
+font-weight: 600;
+margin-left: 5px;
+}
+.adress-second i {
+    width: 10px;
+}
+.search-box{
+    width: 820px;
+    height: 43px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.search-select select{
+    width: 50px;
+    height: 37px;
+    border-top:none ;
+    border-left:none ;
+    border-bottom:none ;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-right: 1px solid rgb(231, 227, 227);
+    color: #131921;
+}
+.search-item .search-amazon{
+    height: 37px;
+    width: 722px;
+    border: none;
+    padding-left: 14px;
+}
+
+.search-icon i {
+ background-color: #FFFFF3;
+ width: 43px;
+ height: 37px;
+ text-align: center;
+ padding-top: 10px;
+ font-size: 1.2rem;
+ border:none;
+ border-top-right-radius: 5px;
+ border-bottom-right-radius: 5px;
+ background-color: #FEBD69;
+}
+.hello-list{
+    margin-left: 10px;
+}
+.hello-list .hello{
+    font-size: 0.68rem;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-left: 6px;
+
+}
+.hello-list .list{
+    font-size: 0.90rem;
+    font-weight: 600;
+    margin-left: 5px;
+    width: 111px;
+}
+.cart-section .cart-icon
+{
+    font-size:1.5rem;
+}
+.cart-section p{
+    font-size: 0.90rem;
+    font-weight: 600;
+}
+.border:hover{
+cursor: pointer;
+}
+/* second-header */
+.second-header{
+    background-color: #232F3E;
+    height:38px;
+    color: #FFFFF3;
+    display: flex;
+    align-items: center;
+}
+.bar-logo {
+    display: flex;
+    margin-left: 30px;
+    font-size: larger;
+    align-items: center;
+}
+.bar-logo p{
+    padding-left:4px ;
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+.first-panel ul{
+    display: flex;
+    margin-left:50px;
+    }
+ .first-panel ul li{
+    font-size: 0.75rem;
+    font-weight: 700;
+    padding-left: 18px;
+    transition: 0.2s;
+ }
+ .first-panel ul li:hover{
+    cursor: pointer;
+    color: #FEBD69;
+ }
+ /* hero-section */
+ .hero-section{
+    color: black;
+ }
+ .hero-section .hero-img{
+   height:300px;
+   background: url(hero\ img.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+ } 
+#zero-section{
+    background-color: #ffe0e7;
+    height:700px ;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.box1{
+    width:350px ;
+    height:300px ;
+    border: 1px solid black;
+    margin-left: 15px;
+    font-size: 20px;
+    margin-top: 30px;
+    background-color: #FFFFF3;
+}
+
+.box1 p{
+    color: #131921;
+    padding-left: 13px;
+    padding-top: 5px;
+    font-weight: 700;
+}
+.pic1{
+ height: 250px;
+ background-image: url(Gaming_zone.jpg);
+ background-size: cover;
+ margin: 9px 12px;
+}
+
+.box2{
+    width:350px ;
+    height:300px ;
+    border: 1px solid black;
+    margin-left: 15px;
+    font-size: 20px;
+    margin-top: 30px;
+    background-color: #FFFFF3;
+}
+
+.box2 p{
+    color: #131921;
+    padding-left: 13px;
+    padding-top: 5px;
+    font-weight: 700;
+}
+.pic2{
+ height: 250px;
+ background-image: url(cuttle.jpg);
+ background-size: cover;
+ margin: 9px 12px;
+}
+
+.box3{
+    width:350px ;
+    height:300px ;
+    border: 1px solid black;
+    margin-left: 15px;
+    font-size: 20px;
+    margin-top: 30px;
+    background-color: #FFFFF3;
+}
+
+.box3 p{
+    color: #131921;
+    padding-left: 13px;
+    padding-top: 5px;
+    font-weight: 700;
+}
+.pic3{
+ height: 250px;
+ background-image: url(video\ concule.jpg);
+ background-size: cover;
+ margin: 9px 12px;
+}
+
+.box4{
+    width:350px ;
+    height:300px ;
+    border: 1px solid black;
+    margin-left: 15px;
+    font-size: 20px;
+    margin-top: 30px;
+    background-color: #FFFFF3;
+}
+
+.box4 p{
+    color: #131921;
+    padding-left: 13px;
+    padding-top: 5px;
+    font-weight: 700;
+}
+.pic4{
+ height: 250px;
+ background-image: url(game\ setup.jpg);
+ background-size: cover;
+ margin: 9px 12px;
+}
+
+.box5{
+    width:350px ;
+    height:300px ;
+    border: 1px solid black;
+    margin-left: 15px;
+    font-size: 20px;
+    margin-top: 30px;
+    background-color: #FFFFF3;
+}
+
+.box5 p{
+    color: #131921;
+    padding-left: 13px;
+    padding-top: 5px;
+    font-weight: 700;
+}
+.pic5{
+ height: 250px;
+ background-image: url(valentains\ day.jpg);
+ background-size: cover;
+ margin: 9px 12px;
+}
+
+.box6{
+    width:350px ;
+    height:300px ;
+    border: 1px solid black;
+    margin-left: 15px;
+    font-size: 20px;
+    margin-top: 30px;
+    background-color: #FFFFF3;
+}
+
+.box6 p{
+    color: #131921;
+    padding-left: 13px;
+    padding-top: 5px;
+    font-weight: 700;
+}
+.pic6{
+ height: 250px;
+ background-image: url(nail\ product.jpg);
+ background-size: cover;
+ margin: 9px 12px;
+}
+/* footer */
+.panel-one{
+    height: 40px;
+    background-color: #131921;
+    margin-top: 10px;
+}
+.panel-one p{
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+    padding-top: 10px;
+}
+ .panel-two{
+    height: 260px;
+    background-color: #232F3E;
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 20px;
+ }
+
+ .panel-two ul li {
+    padding: 10px;
+    font-size: 13px;
+    font-weight: 600;
+ }
+.hr{
+    height: 1px;
+    background-color: #b4b1ad;
+}
+.last-sec{
+    height: 70px;
+    background-color: #232F3E;
+    display: flex;
+    justify-content: center;
+}
+.last-sec p{
+    font-size: 12px;
+    text-align: center;
+    margin-top: 17px;
+    
+}
+.last-sec i{
+    padding-top: 15px;
+    padding-right: 4px;
+    
+}
+    
